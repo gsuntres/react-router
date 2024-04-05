@@ -1,0 +1,29 @@
+{
+  "name": "@gsuntres/react-router",
+  "version": "0.0.1",
+  "description": "React router without the url bar",
+  "main": "./dist/index.js",
+  "author": "George Suntres <gsuntres@gmail.com>",
+  "type": "module",
+  "license": "MIT",
+  "scripts": {
+    "build": "rollup -c",
+    "clean": "npx rimraf .dist"
+  },
+  "files": [ ".dist" ],
+  "devDependencies": {
+    "@babel/core": "^7.24.4",
+    "@babel/preset-env": "^7.24.4",
+    "@babel/preset-react": "^7.24.1",
+    "@rollup/plugin-babel": "^6.0.4",
+    "@rollup/plugin-commonjs": "^25.0.7",
+    "@rollup/plugin-node-resolve": "^15.2.3",
+    "@rollup/plugin-replace": "^5.0.5",
+    "babel-plugin-annotate-pure-calls": "^0.4.0",
+    "immer": "10.0.4",
+    "lodash-es": "^4.17.21",
+    "react": "18.2.0",
+    "rimraf": "^5.0.5",
+    "rollup": "^4.14.0"
+  }
+}
