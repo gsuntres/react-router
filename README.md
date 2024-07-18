@@ -34,12 +34,12 @@ Examples of navigation paths:
 * products.view
 * products.view.details
 
-In a browser environment the above you have the equivalent urls:
+In a browser environment the above would have the following urls:
 
 * /products/view
 * /products/view/details
 
-A ``Route`` will make sure the element will get rendered on the requested navigation path (main.route1). 
+A ``Route`` makes sure elements get rendered when navigation path is active (main.route1). 
 
 ```js
 import { Route } from '@gsuntres/react-router'
